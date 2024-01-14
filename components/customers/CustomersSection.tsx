@@ -36,7 +36,7 @@ const cardData = [
 const CustomersSection = () => {
   return (
     <div className="flex flex-col gap-4 py-6">
-      <h1 className="text-2xl sm:text-3xl font-bold">What Our Customers Say</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold">What our customers say</h1>
       <div className="grid sm:grid-cols-3 gap-4 pt-2">
         {cardData.map((item, index) => (
           <CustomerCard key={index} data={item} index={index} />
