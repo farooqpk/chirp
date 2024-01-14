@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 flex justify-between items-center p-4 bg-slate-50">
+    <nav className="sticky top-0 flex justify-between items-center p-4 bg-slate-50 z-50">
       <div className="sm:pl-20">
         <h1 className="text-lg font-bold text-sky-500">Chirp.</h1>
       </div>
